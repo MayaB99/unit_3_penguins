@@ -48,7 +48,7 @@ gentoo_results = gentoo %>%
 gentoo_results
 
 ##Unpaired 2 sample t-test(or independent sample t-test): 2 distributions and seeing if similar
-  #ex: compare body mass of gentoo and Adelie penguins 
+  #ex: compare body mass of gento and Adelie penguins 
     #first create sepereate data frame to look at just what were interested in: 
 data_for_t_test = penguins %>%
   filter(species %in% c("Gentoo", "Adelie")) %>%

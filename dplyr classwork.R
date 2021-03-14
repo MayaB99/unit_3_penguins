@@ -80,7 +80,7 @@ summary(chinstrap_200)
 
 
 
-####Let's find the ass of each species by using the groupby term: 
+####Let's find the mass of each species by using the groupby term: 
 penguin_masses = penguins %>%
   group_by(species) %>%  ##separate each species into a distinct group
   summarize(mean_body_mass_g = mean(body_mass_g, na.rm = TRUE)) ##na.rm takes the NA out of the data so we can calculate the means
